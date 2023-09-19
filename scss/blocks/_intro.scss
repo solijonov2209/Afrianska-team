@@ -1,0 +1,121 @@
+@use "../mixins";
+.intro {
+   padding: 56px 0 0 0;
+}
+.form__wrapper {
+   margin-bottom: 56px;
+   padding: 20px 24px 17px;
+   border-radius: 10px;
+   border: 1px solid transparent;
+   background: #f4f4f4;
+}
+.form__inner {
+   display: flex;
+   &::before {
+      display: inline-block;
+      margin-right: 24px;
+      background-image: url(../../images/svg/search.svg);
+      @include mixins.background(24px, 24px);
+      content: "";
+   }
+}
+.form__input {
+   width: 100%;
+   font-weight: 400;
+   @include mixins.title-text(0, 16px, normal, #1f3f68);
+   border-color: transparent;
+   background-color: transparent;
+   outline: none;
+   &::placeholder {
+      font-weight: 400;
+      @include mixins.title-text(0, 16px, normal, #1f3f68);
+   }
+}
+.intro__wrapper {
+   padding-bottom: 24px;
+   border-bottom: 1px solid #00000033;
+}
+.intro__title {
+   @include mixins.title-text(32px, 20px, normal, #356ead);
+}
+.intro__list {
+   display: flex;
+   flex-wrap: wrap;
+   @include mixins.list-reset;
+   margin-bottom: 54px;
+}
+.intro__item {
+   width: 300px;
+   display: flex;
+   flex-direction: column-reverse;
+}
+.intro__item:nth-child(1) {
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+   margin-bottom: 33px;
+}
+.intro__item:nth-child(3) {
+   margin: 0 20px;
+}
+.intro__item:nth-child(1) .intro__item-inner {
+   margin-right: 20px;
+}
+.intro__item-title {
+   @include mixins.fonts("Plus Jakarta Sans", 700);
+   @include mixins.title-text(16px, 28px, 38px, #1f3f68);
+}
+.intro__item:not(:first-child) .intro__item-title {
+   margin-top: 16px;
+}
+.intro__item:nth-child(1) .intro__item-title {
+   @include mixins.title-text(32px, 48px, 58px, #1f3f68);
+}
+.intro__item-text {
+   font-weight: 400;
+   @include mixins.title-text(16px, 16px, 26px, #00000099);
+   letter-spacing: 0.64px;
+}
+.intro__item:nth-child(1) .intro__item-text {
+   font-weight: 400;
+   @include mixins.title-text(30px, 16px, 26px, #00000099);
+   letter-spacing: 0.64px;
+}
+.intro__item-bottom {
+   display: flex;
+   align-items: center;
+}
+.author {
+   display: block;
+   font-style: normal;
+   font-weight: 400;
+   @include mixins.title-text(4px, 14px, 24px, #1f3f68);
+   letter-spacing: 0.56px;
+}
+.intro__item-date {
+   font-style: normal;
+   font-weight: 400;
+   @include mixins.title-text(4px, 14px, 24px, #00000066);
+   letter-spacing: 0.56px;
+}
+.intro__item-list {
+   @include mixins.list-box;
+   margin-left: auto;
+}
+.intro__item:nth-child(1) .intro__item-list {
+   margin-right: 80px;
+}
+.intro__item-item {
+   margin-left: 32px;
+}
+.intro__item:not(:first-child) .intro__item-item {
+   margin-left: 32px;
+}
+.intro__last-link {
+   display: block;
+   text-align: end;
+   text-decoration-line: none;
+   @include mixins.title-text(0, 16px, normal, #356ead);
+   letter-spacing: 0.64px;
+   text-transform: uppercase;
+}

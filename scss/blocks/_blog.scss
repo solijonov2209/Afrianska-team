@@ -1,0 +1,17 @@
+@use "../mixins";
+.blog {
+   padding: 50px 0;
+   background-image: url(../../images/svg/herobg.svg);
+   @include mixins.backgrounds;
+}
+.blog__wrapper {
+   text-align: center;
+   padding: 0 80px;
+}
+.blog__title {
+   @include mixins.title-text(16px, 44px, 74px, #fff);
+}
+.blog__text {
+   @include mixins.fonts("Plus Jakarta Sans", 400);
+   @include mixins.title-text(0, 20px, 30px, #ffffff66);
+}

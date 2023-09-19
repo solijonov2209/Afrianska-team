@@ -1,0 +1,64 @@
+@use "../mixins";
+.article {
+   padding: 56px 0 96px;
+}
+.article__title {
+   @include mixins.fonts("Plus Jakarta Sans", 600);
+   @include mixins.title-text(32px, 20px, normal, #356ead);
+}
+.article__list {
+   @include mixins.list-reset;
+   margin-bottom: 56px;
+}
+.article__item {
+   display: flex;
+}
+.article__inner-title {
+   @include mixins.fonts("Plus Jakarta Sans", 700);
+   @include mixins.title-text(16px, 28px, 38px, #1f3f68);
+}
+.article__inner-text {
+   @include mixins.fonts("Plus Jakarta Sans", 400);
+   @include mixins.title-text(14px, 16px, 26px, #00000099);
+}
+.article__wrapper-in {
+   margin-left: 20px;
+}
+.article__inner {
+   @include mixins.flex-box(row, flex-start, center);
+}
+.article__inner-list {
+   @include mixins.list-box;
+   margin-left: 98px;
+}
+.article__inner-item {
+   margin-right: 32px;
+}
+.article__item:not(:last-child) {
+   margin-bottom: 32px;
+}
+.article__bottom-list {
+   @include mixins.list-reset;
+   @include mixins.flex-box(row, space-between, center);
+}
+.article__bottom-link {
+   display: flex;
+   text-decoration-line: none;
+   @include mixins.title-text(0, 16px, normal, #356ead);
+}
+.article__bottom-item:nth-child(1) .article__bottom-link{
+   &::before {
+      @include mixins.p-element(relative, 0, 0, 18px, 18px);
+      background-image: url(../../images/svg/left.svg);
+      margin-right: 16px;
+      @include mixins.backgrounds;
+   }
+}
+.article__bottom-item:nth-child(2) .article__bottom-link{
+   &::after {
+      @include mixins.p-element(relative, 0, 0, 18px, 18px);
+      background-image: url(../../images/svg/right.svg);
+      margin-left: 16px;
+      @include mixins.backgrounds;
+   }
+}
