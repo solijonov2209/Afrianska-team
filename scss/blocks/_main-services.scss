@@ -1,0 +1,99 @@
+@use "../mixins" as mx;
+.main-services{
+  padding-top:192px;
+  padding-bottom: 192px;
+}
+.main-services__inner{
+  display: flex;
+  justify-content: space-between;
+}
+.main-services__left{
+  margin-right: 100px;
+}
+.main-services__left .main-services__card{
+  position: relative;
+  left: 80px;
+}
+.main-services__title-wrapper{
+  max-width: 358px;
+  width: 100%;
+}
+.main-services__title{
+  margin-top: 0;
+  margin-bottom: 206px;
+  color: var( --main-blue-02-heading-color);
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: 46px; /* 127.778% */
+letter-spacing: 1.8px;
+}
+.main-services__card{
+  width: 380px;
+  padding: 48px;
+  border-radius: 10px;
+background: #FFF;
+box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.20);
+}
+.main-services__card-title{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--main-blue-heading-color);
+  line-height: 30px; /* 150% */
+  letter-spacing: 1px;
+}
+.main-services__card::before{
+  display: block;
+  width: 182px;
+  height: 132px;
+  margin: 0 auto;
+  margin-bottom: 36px;
+  background-image: url("../../images/svg/makebisnes.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 182px 132px;
+  content: "";
+}
+.main-services__right .main-services__card:first-child{
+  padding-top: 0;
+  margin-bottom: 100px;
+}
+.main-services__right .main-services__card:first-child::before{
+  background-image: url("../../images/svg/bringtechnology.svg");
+}
+.main-services__right .main-services__card:nth-child(2)::before{
+  background-image: url("../../images/svg/buildproduct.svg");
+}
+.main-services__desc{
+  margin-bottom: 32px;
+  color: var(--main-blue-heading-color);
+  opacity: 0.6;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0.8px;
+}
+.main-services__link{
+  display: flex;
+  align-items: center;
+  color: var(  --main-blue-a-bg);
+font-size: 14px;
+text-decoration: none;
+line-height: 30px; /* 214.286% */
+letter-spacing: 0.7px;
+}
+.main-services__link::after{
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 24px;
+  background-image: url("../../images/svg/right.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px;
+  content: "";
+
+}
