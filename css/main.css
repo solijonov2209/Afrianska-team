@@ -439,7 +439,7 @@ img {
 .site-header__btn {
   width: 32px;
   height: 32px;
-  background-image: url("../../images/svg/burgermenu.svg");
+  background-image: url("../images/svg/burgermenu.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-color: inherit;
@@ -449,7 +449,7 @@ img {
 
 .blog {
   padding: 50px 0;
-  background-image: url(../../images/svg/herobg.svg);
+  background-image: url(../images/svg/herobg.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -498,7 +498,7 @@ img {
 .form__inner::before {
   display: inline-block;
   margin-right: 24px;
-  background-image: url(../../images/svg/search.svg);
+  background-image: url(../images/svg/search.svg);
   width: 24px;
   height: 24px;
   background-repeat: no-repeat;
@@ -658,13 +658,12 @@ img {
   letter-spacing: 0.64px;
 }
 
-.intro__item-bottom {
-=======
+
 .hero {
   padding-top: 55px;
   padding-bottom: 190px;
-  background-image: url("../../images/svg/illustration.svg "), -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #98C3E8), color-stop(31.12%, rgba(152, 195, 232, 0.02)));
-  background-image: url("../../images/svg/illustration.svg "), linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0.02) 31.12%);
+  background-image: url("../images/svg/illustration.svg "), -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #98C3E8), color-stop(31.12%, rgba(152, 195, 232, 0.02)));
+  background-image: url("../images/svg/illustration.svg "), linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0.02) 31.12%);
   background-position: calc(50% + 307px) calc(50% - 22px), center;
   background-repeat: no-repeat;
 }
@@ -783,7 +782,7 @@ img {
   height: 132px;
   margin: 0 auto;
   margin-bottom: 36px;
-  background-image: url("../../images/svg/makebisnes.svg");
+  background-image: url("../images/svg/makebisnes.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 182px 132px;
@@ -796,11 +795,11 @@ img {
 }
 
 .main-services__right .main-services__card:first-child::before {
-  background-image: url("../../images/svg/bringtechnology.svg");
+  background-image: url("../images/svg/bringtechnology.svg");
 }
 
 .main-services__right .main-services__card:nth-child(2)::before {
-  background-image: url("../../images/svg/buildproduct.svg");
+  background-image: url("../images/svg/buildproduct.svg");
 }
 
 .main-services__desc {
@@ -1005,7 +1004,7 @@ img {
   width: 18px;
   height: 18px;
   content: "";
-  background-image: url(../../images/svg/left.svg);
+  background-image: url(../images/svg/left.svg);
   margin-right: 16px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1020,7 +1019,7 @@ img {
   width: 18px;
   height: 18px;
   content: "";
-  background-image: url(../../images/svg/right.svg);
+  background-image: url(../images/svg/right.svg);
   margin-left: 16px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1038,7 +1037,7 @@ img {
   width: 24px;
   height: 24px;
   margin-left: 24px;
-  background-image: url("../../images/svg/right.svg");
+  background-image: url("../images/svg/right.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 20px;
@@ -1093,7 +1092,7 @@ img {
   padding: 48px;
   margin-bottom: 92px;
   padding-bottom: 215px;
-  background-image: url("../../images/png/project-top.png");
+  background-image: url("../images/png/project-top.png");
   text-align: right;
 }
 
@@ -1127,11 +1126,11 @@ img {
 .main-project__card {
   width: 422px;
   padding: 24px 32px 290px;
-  background-image: url("../../images/png/project-middle-left.png");
+  background-image: url("../images/png/project-middle-left.png");
 }
 
 .main-project__bottom .main-project__card:nth-child(2) {
-  background-image: url("../../images/png/project-middle-right.png");
+  background-image: url("../images/png/project-middle-right.png");
 }
 
 .main-project__bottom-card-title {
