@@ -1,0 +1,260 @@
+.contact-hero__title {
+    margin: 0;
+    padding: 0;
+    padding-top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    letter-spacing: 1.76px;
+}
+
+.contact-hero__description {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+
+
+.description__wrapper {
+    margin: 0 auto;
+    width: 699px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+
+.contact-hero {
+    margin: 0 auto;
+    display: block;
+    height: 250px;
+    flex-shrink: 0;
+    background-image: url("../../images/png/bakground\ blue\ herocontact.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-hero__register__list {
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+    list-style: none;
+    gap: 101px;
+    margin-bottom: 96px;
+}
+
+
+.item__sec__two{
+    margin-left: 100px;
+}
+
+
+.contact-hero__register__address {
+    margin-top: 71px;
+    margin-bottom: 24px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+
+
+.contact-hero__register__description {
+    margin: 0;
+    padding: 0;
+    color: var(--Blue_01, #1F3F68);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    opacity: 0.6;
+}
+
+
+.contact-hero__register__desc__wrapper {
+    margin-bottom: 40px;
+    width: 299px;
+    height: 53px;
+    flex-shrink: 0;
+}
+
+
+.contact-hero__register__links {
+    margin: 0;
+    margin-left: 41px;
+    text-decoration: none;
+    color: var(--Blue_01, #1F3F68);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    opacity: 0.6;
+}
+
+
+.wrapper__link {
+    margin-top: 25px;
+}
+
+
+.wrapper__sublink {
+    margin-top: 18px;
+}
+
+
+.wrapper__sublink::before {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-image: url(/images/svg/tell\ phone\ photo.svg);
+    background-repeat: no-repeat;
+    content: "";
+    opacity: 0.6;
+}
+
+
+.stronng__wrapper {
+    margin-top: 41px;
+    margin-bottom: 25px;
+}
+
+.mail__and__earth__links::before {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-image: url(/images/svg/circle\ earth\ photo.svg);
+    background-repeat: no-repeat;
+    content: "";
+    opacity: 0.6;
+}
+
+.mail__and__earth__links__two::before {
+    position: absolute;
+    display: block;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    background-image: url(/images/svg/email\ photo.svg);
+    background-repeat: no-repeat;
+    content: "";
+    opacity: 0.6;
+}
+
+.wrapper__links__mail__earth {
+    margin-top: 18px;
+}
+
+
+.contact-hero__register__item__subtitle {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 48px;
+    color: var(--Blue_01, #1F3F68);
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+}
+
+
+.label__text {
+    color: var(--Blue_01, #1F3F68);
+    font-family: "Poppins";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.64px;
+    opacity: 0.8;
+}
+
+
+.contact-hero__register__input {
+    margin-top: 10px;
+    margin-bottom: 32px;
+    width: 428px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid var(--blue_03, #356EAD);
+    opacity: 0.4;
+}
+
+.contact-hero__register__subitem {
+    width: 540px;
+    height: 800px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 5px 10px 50px 0px rgba(16, 112, 177, 0.20);
+}
+
+
+.wrapper__contact-hero__register__item {
+    padding-top: 56px;
+    padding-left: 56px;
+}
+
+
+.two__input {
+    margin-bottom: 0;
+}
+
+
+.contact-hero__register__item__button {
+    color: #FFF;
+    text-align: center;
+    font-family: "";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.64px;
+    width: 428px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--blue_04, #5A98D0);
+    box-shadow: 5px 20px 50px 0px rgba(16, 112, 177, 0.20);
+    border: 0;
+    margin-top: 40px;
+}
+input {
+    padding-left: 36px;
+}
+.contact-hero__register__input__second {
+    resize: none;
+    padding-left: 36px;
+    padding-top: 21px;
+    width: 428px;
+    height: 144px;
+    flex-shrink: 0;
+}
+.map__google {
+    margin: 0 auto;
+    margin-bottom: 96px;
+    width: 940px;
+    height: 480px;
+    flex-shrink: 0;
+}
